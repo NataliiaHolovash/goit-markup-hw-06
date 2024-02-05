@@ -787,12 +787,14 @@ margin-bottom: 72px;
 }
 
 .form-suscribe {
-
-    gap: 24px; 
+display: flex;
+flex-direction: column;
+gap: 16px;
+ 
 }
 
 .subscribe-email {
-    margin-bottom: 16px;
+   
 }
 .email-send-footer {
   /*  width: 264px; */
@@ -811,7 +813,7 @@ margin-bottom: 72px;
 }
 
 .btn-subscribe {
-    min-width: 165px;
+    width: 165px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -826,8 +828,8 @@ margin-bottom: 72px;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    margin: 0 auto;
-    margin-top: 16px;
+   margin-left: 61px; 
+    
 }
 
 .icon-send {
@@ -1140,7 +1142,8 @@ margin-bottom: 72px;
   .footer-tablet {
     display: flex;
    flex-wrap: wrap;
-    gap: 72px 24px;
+    gap: 24px;
+margin-bottom: 72px;
   
   }
 
@@ -1172,14 +1175,16 @@ margin-bottom: 72px;
     text-align: start;
 }
 .form-subscribe {
-    
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 .subscribe-email {
     display: flex;
    gap: 24px; 
 }
 .btn-subscribe {
-    margin-top: 0;
+margin-left: 0;
 }
 .modal {
     width: 408px;
