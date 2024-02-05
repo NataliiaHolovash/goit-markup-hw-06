@@ -828,7 +828,7 @@ gap: 16px;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-   margin-left: 61px; 
+   margin: 0 auto; 
     
 }
 
@@ -1184,7 +1184,7 @@ margin-bottom: 72px;
    gap: 24px; 
 }
 .btn-subscribe {
-margin-left: 0;
+
 }
 .modal {
     width: 408px;
