@@ -786,11 +786,10 @@ margin-bottom: 72px;
     text-align: center;
 }
 
-.form-suscribe {
+.form-subscribe {
 display: flex;
 flex-direction: column;
 gap: 16px;
- 
 }
 
 .subscribe-email {
@@ -1174,17 +1173,19 @@ margin-bottom: 72px;
 .title-subscribe{
     text-align: start;
 }
+
 .form-subscribe {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    
 }
+
 .subscribe-email {
-    display: flex;
-   gap: 24px; 
+   
 }
 .btn-subscribe {
-
+margin-left: 0;
 }
 .modal {
     width: 408px;
@@ -1272,9 +1273,14 @@ width: calc((100% - 2 * 24px) / 3);
     padding: 100px 0;
 }
 .footer-tablet {
-    flex-wrap: nowrap;
-    gap: 0;
-    
+   flex-wrap: nowrap;
+    gap: 120px;
+}
+
+.form-subscribe {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 .footer-wrap {
      display: flex;
@@ -1286,7 +1292,7 @@ width: calc((100% - 2 * 24px) / 3);
      margin-right: 80px; 
 }
 .footer-section-logo {
-     margin-right: 120px; 
+ 
 }
 
 }
